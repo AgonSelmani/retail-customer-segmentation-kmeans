@@ -109,10 +109,9 @@ clustering_project/
 │   └── processed/
 │       ├── customer_level.csv
 │       ├── customer_level_scaled.csv
-│       └── customer_segments.csv
+│       └── COSTUMER_SEGMENTS.csv
 ├── outputs/                    # All generated figures and final CSVs
 │   ├── cluster_scatter_plots.png
-│   ├── customer_segments.csv
 │   ├── eda_3_missing_data_heatmap.png
 │   ├── eda_6_distribution_*.png
 │   ├── eda_9_correlation_matrix.png
