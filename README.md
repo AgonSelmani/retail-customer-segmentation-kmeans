@@ -8,7 +8,7 @@ Customer segmentation allows businesses to identify distinct buying patterns and
 
 ## Dataset
 
-- **Source:** Retail transaction records (invoices, products, quantities, prices, etc.).
+- **Source:** Retail transaction records (invoices, products, quantities, prices, etc.) — [Kaggle](https://www.kaggle.com/datasets/shinziikhan/online-retailing-dataset)
 - **Size:** 7,709 raw transaction rows × 14 columns.
 - **Key Limitation:** The dataset covers a very short **5-day window** (December 1–5, 2022). Because of this narrow timeframe, traditional recency metrics (like "days since last purchase") lack meaningful variance and had to be excluded from the feature set.
 
