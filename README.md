@@ -139,7 +139,7 @@ clustering_project/
    python main.py
    ```
 
-3. **View the results:** All figures and the final segmented dataset are written to the `outputs/` folder.
+3. **View the results:** All figures are saved  to the `outputs/` folder and the final CUSTOMER_SEGMENTS.csv is saved to `data/processed`.
 
 ## Limitations
 
