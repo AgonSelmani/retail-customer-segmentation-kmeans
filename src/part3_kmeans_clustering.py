@@ -243,7 +243,7 @@ plt.close()
 
 
 # 6.4 Save the finalized, segmented customer dataset
-output_path = 'data/processed/COSTUMER_SEGMENTS.csv'
+output_path = 'data/processed/customer_segments.csv'
 customer_df.to_csv(output_path, index=False)
 print(f"\n   Saved: {output_path}")
 print(f"   Columns: {list(customer_df.columns)}")

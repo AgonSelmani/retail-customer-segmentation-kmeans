@@ -21,4 +21,4 @@ After running `python main.py`, these files will be created automatically:
     data/processed/
     ├── customer_level.csv           # aggregated features per customer
     ├── customer_level_scaled.csv    # RobustScaler output
-    └── CUSTOMER_SEGMENTS.csv        # final segmented dataset
+    └── customer_segments.csv        # final segmented dataset

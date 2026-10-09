@@ -34,7 +34,7 @@ Customer segmentation allows businesses to identify distinct buying patterns and
 > - **253 customers** segmented into **4 groups**
 > - Segments: Regular (48%), Premium (25%), Bulk Buyer (14%), VIP (13%)
 > - Silhouette score: **0.35** (reasonable for behavioral segmentation)
-> - Final dataset: `outputs/customer_segments.csv`
+> - Final dataset: `data/processed/customer_segments.csv`
 
 ```mermaid
 flowchart TD
@@ -102,15 +102,14 @@ The optimal number of clusters was chosen using a combination of the Elbow metho
 ## Project Structure
 
 ```
-clustering_project/
+retail-customer-segmentation-kmeans/
 ├── data/
+│   ├── README.md                    # setup instructions for the data folder
 │   ├── raw/
-│   │   └── My_retail_data.csv
+│   │   └── .gitkeep                 # placeholder (raw data excluded from Git)
 │   └── processed/
-│       ├── customer_level.csv
-│       ├── customer_level_scaled.csv
-│       └── COSTUMER_SEGMENTS.csv
-├── outputs/                    # All generated figures and final CSVs
+│       └── .gitkeep                 # placeholder (generated CSVs excluded from Git)
+├── outputs/                         # all generated figures
 │   ├── cluster_scatter_plots.png
 │   ├── eda_3_missing_data_heatmap.png
 │   ├── eda_6_distribution_*.png
@@ -134,12 +133,17 @@ clustering_project/
    pip install -r requirements.txt
    ```
 
-2. **Run this file and it will automatically run the entire pipeline:**
+2. **Download the original dataset and put it here with this name:**
+   ```bash
+   data/raw/My_retail_data.csv
+   ```
+
+3. **Run this file and it will automatically run the entire pipeline:**
    ```bash
    python main.py
    ```
 
-3. **View the results:** All figures are saved  to the `outputs/` folder and the final CUSTOMER_SEGMENTS.csv is saved to `data/processed`.
+4. **View the results:** All figures are saved to the `outputs/` folder and the final `customer_segments.csv` is saved to `data/processed`.
 
 ## Limitations
 
